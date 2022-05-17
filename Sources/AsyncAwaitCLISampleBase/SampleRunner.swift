@@ -5,8 +5,5 @@ public struct SampleRunner {
 
     public func run() async throws {
         print("Hello, world!")
-
-
-        throw NSError(domain: "SampleRunner", code: -99)
     }
 }
